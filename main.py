@@ -53,8 +53,10 @@ def snake_game():
                     screen.clear()
                     snake_game()
 
+    screen.exitonclick()
+
 
 snake_game()
 
 
-screen.exitonclick()
+
